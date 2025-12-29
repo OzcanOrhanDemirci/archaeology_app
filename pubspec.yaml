@@ -1,0 +1,51 @@
+name: archaeology_app
+description: "A streamlined digital guide to the most significant archaeological heritage sites of Turkey."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+  flutter_launcher_icons: ^0.13.1
+
+  flutter_native_splash: ^2.4.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icon/
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: false
+  image_path: "assets/icon/icon_foreground.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#1D2C36"
+  adaptive_icon_foreground: "assets/icon/icon_foreground.png"
+
+
+
+flutter_native_splash:
+  color: "#1D2C36" #
+  image: "assets/icon/icon_foreground.png"
+  android_12:
+    image: "assets/icon/icon_foreground.png"
+    color: "#1D2C36"
+  ios: false

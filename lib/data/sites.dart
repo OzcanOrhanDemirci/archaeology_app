@@ -1,0 +1,130 @@
+/// Metadata for archaeological sites used in listings and search.
+/// Maps IDs to localization keys.
+final List<Map<String, String>> globalSiteData = const [
+  {
+    'id': 'ephesus',
+    'name_key': 'site_ephesus_name',
+    'subtitle_key': 'site_ephesus_sub',
+    'desc_key': 'site_ephesus_desc',
+  },
+  {
+    'id': 'pergamon',
+    'name_key': 'site_pergamon_name',
+    'subtitle_key': 'site_pergamon_sub',
+    'desc_key': 'site_pergamon_desc',
+  },
+  {
+    'id': 'troy',
+    'name_key': 'site_troy_name',
+    'subtitle_key': 'site_troy_sub',
+    'desc_key': 'site_troy_desc',
+  },
+  {
+    'id': 'hierapolis',
+    'name_key': 'site_hierapolis_name',
+    'subtitle_key': 'site_hierapolis_sub',
+    'desc_key': 'site_hierapolis_desc',
+  },
+  {
+    'id': 'aspendos',
+    'name_key': 'site_aspendos_name',
+    'subtitle_key': 'site_aspendos_sub',
+    'desc_key': 'site_aspendos_desc',
+  },
+  {
+    'id': 'perge',
+    'name_key': 'site_perge_name',
+    'subtitle_key': 'site_perge_sub',
+    'desc_key': 'site_perge_desc',
+  },
+  {
+    'id': 'aphrodisias',
+    'name_key': 'site_aphrodisias_name',
+    'subtitle_key': 'site_aphrodisias_sub',
+    'desc_key': 'site_aphrodisias_desc',
+  },
+  {
+    'id': 'hattusa',
+    'name_key': 'site_hattusa_name',
+    'subtitle_key': 'site_hattusa_sub',
+    'desc_key': 'site_hattusa_desc',
+  },
+  {
+    'id': 'nemrut',
+    'name_key': 'site_nemrut_name',
+    'subtitle_key': 'site_nemrut_sub',
+    'desc_key': 'site_nemrut_desc',
+  },
+  {
+    'id': 'xanthos',
+    'name_key': 'site_xanthos_name',
+    'subtitle_key': 'site_xanthos_sub',
+    'desc_key': 'site_xanthos_desc',
+  },
+  {
+    'id': 'miletus',
+    'name_key': 'site_miletus_name',
+    'subtitle_key': 'site_miletus_sub',
+    'desc_key': 'site_miletus_desc',
+  },
+  {
+    'id': 'gobeklitepe',
+    'name_key': 'site_gobeklitepe_name',
+    'subtitle_key': 'site_gobeklitepe_sub',
+    'desc_key': 'site_gobeklitepe_desc',
+  },
+  {
+    'id': 'priene',
+    'name_key': 'site_priene_name',
+    'subtitle_key': 'site_priene_sub',
+    'desc_key': 'site_priene_desc',
+  },
+  {
+    'id': 'sagalassos',
+    'name_key': 'site_sagalassos_name',
+    'subtitle_key': 'site_sagalassos_sub',
+    'desc_key': 'site_sagalassos_desc',
+  },
+  {
+    'id': 'side',
+    'name_key': 'site_side_name',
+    'subtitle_key': 'site_side_sub',
+    'desc_key': 'site_side_desc',
+  },
+  {
+    'id': 'didyma',
+    'name_key': 'site_didyma_name',
+    'subtitle_key': 'site_didyma_sub',
+    'desc_key': 'site_didyma_desc',
+  },
+  {
+    'id': 'sardis',
+    'name_key': 'site_sardis_name',
+    'subtitle_key': 'site_sardis_sub',
+    'desc_key': 'site_sardis_desc',
+  },
+  {
+    'id': 'kaunos',
+    'name_key': 'site_kaunos_name',
+    'subtitle_key': 'site_kaunos_sub',
+    'desc_key': 'site_kaunos_desc',
+  },
+  {
+    'id': 'myra',
+    'name_key': 'site_myra_name',
+    'subtitle_key': 'site_myra_sub',
+    'desc_key': 'site_myra_desc',
+  },
+  {
+    'id': 'laodicea',
+    'name_key': 'site_laodicea_name',
+    'subtitle_key': 'site_laodicea_sub',
+    'desc_key': 'site_laodicea_desc',
+  },
+  {
+    'id': 'termessos',
+    'name_key': 'site_termessos_name',
+    'subtitle_key': 'site_termessos_sub',
+    'desc_key': 'site_termessos_desc',
+  },
+];
