@@ -1,5 +1,9 @@
 # Anatolia Heritage: Digital Archaeological Guide 🏛️
 
+![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+
 **Anatolia Heritage** is an information-centric Android mobile application designed to showcase 21 of Turkey's most significant archaeological sites (e.g., Ephesus, Troy, Göbeklitepe). Developed as a graduation project, it bridges the gap between academic depth and user experience, providing stratigraphic analyses and historical contexts in an offline-first environment.
 
 ## 📱 Features
@@ -37,7 +41,7 @@ lib/
 │   ├── localization.dart (Static string maps for TR/EN)
 │   ├── site_registry.dart (Lazy-loader registry)
 │   ├── sites.dart (Site metadata for search)
-│   └── site_data.dart/ (Individual content files for 21 sites)
+│   └── sites/ (Individual content files for 21 sites)
 ├── screens/
 │ ├── about_screen.dart (Project info & credits)
 │ ├── favorites_screen.dart (User's saved sites)
@@ -101,9 +105,15 @@ flutter build apk --release
 * **Özcan Orhan Demirci** - *Lead Developer & Architecture*
 * **Berkay Gülbeyaz** - *Content Strategy & Research*
 
-## 📄 License
+## ⚖️ License & Copyright
 
-This project is licensed under the MIT License - see the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
+**© 2026 Özcan Orhan Demirci**
+
+All rights reserved.
+
+This project was developed as a graduation project for the Management Information Systems department.
+The source code is published for **showcase and academic review purposes only**.
+Unathorized copying, modification, distribution, or commercial use of this software is strictly prohibited.
 
 ---
 
