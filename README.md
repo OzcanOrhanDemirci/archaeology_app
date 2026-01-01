@@ -111,9 +111,9 @@ flutter build apk --release
 
 All rights reserved.
 
-This project was developed as a graduation project for the Management Information Systems department.
+This project was developed as a graduation project for the **Bakircay University Management Information Systems** department.
 The source code is published for **showcase and academic review purposes only**.
-Unathorized copying, modification, distribution, or commercial use of this software is strictly prohibited.
+Unauthorized copying, modification, distribution, or commercial use of this software is strictly prohibited.
 
 ---
 
