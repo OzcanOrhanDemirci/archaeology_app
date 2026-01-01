@@ -19,7 +19,7 @@ SiteData getEphesusData(String lang) {
       TimelineData(label: isTr ? 'Osmanlı' : 'Ottoman', targetBlockId: 'l6'),
     ],
     sections: [
-      // SEKTÖR 1: Genel Stratigrafi (Resimli Bloklar)
+
       SiteSection(
         title: isTr ? 'Genel Stratigrafi' : 'General Stratigraphy',
         content: [
@@ -73,7 +73,7 @@ SiteData getEphesusData(String lang) {
           ),
         ],
       ),
-      // SEKTÖR 2: Stratigrafik Analiz (Karmaşık Metinler)
+
       SiteSection(
         title: isTr ? 'Stratigrafik Analiz' : 'Stratigraphic Analysis',
         content: [
@@ -104,7 +104,7 @@ SiteData getEphesusData(String lang) {
                   {'bold': isTr ? 'Celsus Kütüphanesi (MS 110):' : 'Library of Celsus (AD 110):', 'text': isTr ? ' Stratigrafik olarak stabilize edilmiş Roma seviyesinde bulunur. Kesit, yapının yapay olarak doldurulmuş ova ile doğal yamaç arasındaki arayüzdeki konumunu vurgular.' : ' Stratigraphically situated on the stabilized Roman level. The section highlights its location at the interface between the artificially filled plain and the natural slope.'},
                 ],
               ),
-              // İstenirse buraya diğer paragraflar da eklenir, örnek için kısalttım.
+
             ],
           ),
         ],

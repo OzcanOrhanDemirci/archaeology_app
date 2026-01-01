@@ -18,7 +18,7 @@ SiteData getPergamonData(String lang) {
       TimelineData(label: isTr ? 'Bizans' : 'Byzantine', targetBlockId: 'p5'),
     ],
     sections: [
-      // SEKTÖR 1: Genel Bilgiler (General Info)
+
       SiteSection(
         title: isTr ? 'Genel Bilgiler' : 'General Info',
         content: [
@@ -64,7 +64,7 @@ SiteData getPergamonData(String lang) {
           ),
         ],
       ),
-      // SEKTÖR 2: Stratigrafik Analiz
+
       SiteSection(
         title: isTr ? 'Stratigrafik Analiz' : 'Stratigraphic Analysis',
         content: [
